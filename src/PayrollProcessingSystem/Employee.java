@@ -153,7 +153,7 @@ class Manager extends PermanentEmployee {
 
     @Override
     double calculateDeduction() {
-        deduction = calculateGrossSalary() * 0.10;
+        deduction = calculateGrossSalary() * 0.12;
         return deduction;
     }
 
