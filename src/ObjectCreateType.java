@@ -10,13 +10,6 @@ public class ObjectCreateType implements Cloneable, Serializable {
             return (ObjectCreateType) super.clone();
         }
 
-    /**
-     *
-      * @param args
-     * @throws CloneNotSupportedException
-     * @throws IOException
-     * @throws ClassNotFoundException
-     */
    public static void main(String[] args) throws CloneNotSupportedException, IOException, ClassNotFoundException {
        System.out.println("using new keyword");
        ObjectCreateType dataname =new ObjectCreateType();
